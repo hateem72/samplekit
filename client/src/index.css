@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background-white text-text-primary;
+}
+
+.animated-word {
+  @apply inline-block opacity-0 translate-y-12;
+}
+
+.leaflet-container {
+  @apply rounded-3xl;
+}
